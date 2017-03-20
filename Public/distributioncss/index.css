@@ -1,0 +1,68 @@
+.manifestbox{
+	margin-top: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+.manifestbox a{
+	color: #333;
+}
+.head{
+	height: 40px;
+	line-height: 40px;
+	text-indent: 5px;
+	background: linear-gradient(to bottom,#f5f5f5 0,#e8e8e8 100%);
+}
+.orderul li{
+	padding: 10px;
+	box-sizing: border-box;
+	border-top: 1px solid #CBCBCB; 
+}
+.orderul dl{
+	height: 30px;
+	width: 100%;
+	line-height: 30px;
+}
+.orderul dl:nth-child(1),.orderul dl:nth-child(3){
+	color: #6E6F6A;
+}
+.orderul dl:nth-child(2){
+	color: #000;
+	font-weight: bold;
+}
+.orderul dl dd{
+	text-align: right;
+}
+.orderul dl i{
+	padding-right: 5px;
+}
+.time{
+	color: #ff5757;
+}
+.orderul dt,.orderul dd{
+	float: left;
+}
+.orderul dt{
+	width: 70%;
+}
+.orderul dd{
+	width: 30%;
+}
+.order button,.accept button{
+	border: 1px solid #ddd;
+	background: #fff;
+	color: #03B9FA;
+	height: 24px;
+	width: 70px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 1px rgba(34, 25, 25, 0.2);
+	outline: none;
+	font-family: "microsoft yahei";
+}
+.ordersucc{
+	display: none;
+}
+.accept{
+	margin-top: 5px;
+}
